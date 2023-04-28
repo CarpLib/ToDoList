@@ -1,0 +1,31 @@
+.container {
+  max-width: 80vw;
+  margin: 10px auto;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+
+main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+}
