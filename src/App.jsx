@@ -1,5 +1,13 @@
 import "./App.css";
 
+// FontAwasome
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faRectangleList,
+  faTrashCan,
+} from "@fortawesome/free-regular-svg-icons";
+library.add(faRectangleList, faTrashCan);
+
 // Components
 import Header from "./components/Header";
 import Main from "./components/Main";
